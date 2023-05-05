@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dice.css">
+</head>
+
+<body>
+    <div class="box1">
+        <div class="heading">
+            <h1> Dice game </h1>
+            <h3> Reache to 50 to win....</h3>
+        </div>
+        <hr width="75%" color="black">
+
+        <div class="row">
+            <div class="colomn" style="border-right: 2px">
+                <p>Player 1</p>
+                <h2 class="scorep1"><span id="scorep1">0</span></h2>
+                <br>
+                <div class="current">
+                    <p>Current Score</p>
+                    <p id="currentscore1">0</p>
+                </div>
+            </div>
+            <hr class="line" color="black">
+            <div class="colomn">
+                <p>Player 2</p>
+                <h2 class="scorep2"><span id="scorep2">0</span> </h2>
+                <br>
+                <div class="current">
+                    <p>Current Score</p>
+                    <p id="currentscore2">0</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <button class="roll">Roll the dice</button>
+        <br>
+        <br>
+        <button class="restart">Restart</button>
+        <div class="popup" id="popup">
+            <h1 class="heading">Winner</h1>
+            <p id="winner" class="winner">Player 1 is winner</p>
+            <br>
+            <button class="replay">Replay</button>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+<script src="Dice.js"></script>
+</html>
